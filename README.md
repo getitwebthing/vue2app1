@@ -1,5 +1,7 @@
 # app1
 
+[学习视频网址](https://www.bilibili.com/video/BV1Vf4y1T7bw?p=4)
+
 ## Project setup
 ```
 npm install
@@ -51,5 +53,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 module.exports = {
 // 关闭eslint校验工具
 lintOnSave:false
-
 }`
+
+3.项目路由分析
+vue-router
+前端所谓路由:Kv键值对。
+key: URL（地址栏中的路径)
+value:相应的路由组件
+注意:项目上中下结构
+路由组件:
+Home首页路由组件、
+Search路由组件、
+login登录路由、
+Refister注册路由非路由组件:
+Header【首页、搜索页】
+Footer【在首页、搜索页】，但是在登录|注册页面没有
