@@ -27,6 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 jsconfig.json中给文件夹路径取别名
 {
 //编译程序任选项
+
 "compilerOptions": {
 //根目录
 "baseUrl": "./",
