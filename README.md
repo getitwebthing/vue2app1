@@ -25,26 +25,45 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 jsconfig.json中给文件夹路径取别名
+
 {
+
 //编译程序任选项
 
 "compilerOptions": {
+
 //根目录
+
 "baseUrl": "./",
+
 //路径
+
 "paths": {
+
 “@”=>“src”
+
 "@/*":[
+
 "src/*"
+
 ]
+
 }
+
 },
+
 //@不能在以下文件中使用
+
 //exclude排除
+
 "exclude": [
+
 "node_modules",
+
 "dist"
+
 ]
+
 }
 
 
